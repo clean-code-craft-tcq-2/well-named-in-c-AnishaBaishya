@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "PrintColorCode.h"
-#include "ColorPairToString.h"
+#include "WireColourCode.h"
 
 /* function to print color code */
 void ColorCodingManual()
