@@ -6,7 +6,7 @@
 void ColorCodingManual()
 {
 	printf("Color Coding Manual\n");
-	printf("PairNo \t Major Minor");
+	printf("PairNo \t Major Minor\n");
 	int pairnum;
   	int totalPairs = 25;
   	for (pairnum = 1; pairnum <= totalPairs; pairnum++)
