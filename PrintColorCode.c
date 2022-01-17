@@ -6,6 +6,7 @@
 void ColorCodingManual()
 {
 	printf("Color Coding Manual\n");
+	printf("PairNo \t Major Minor");
 	int pairnum;
   	int totalPairs = 25;
   	for (pairnum = 1; pairnum <= totalPairs; pairnum++)
@@ -13,6 +14,6 @@ void ColorCodingManual()
 		ColorPair colorPair = GetColorFromPairNumber(pairnum);
 		char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
 		ColorPairToString(&colorPair, colorPairNames);
-		printf("PairNo:%d  %s\n",pairnum,colorPairNames);
+		printf("%d\t%s\n",pairnum,colorPairNames);
 	}
 }
