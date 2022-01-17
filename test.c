@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "ColorPairToString.h"
+#include "WireColourCode.h"
 #include "test.h"
 
 /* function to match test number to color pair */
