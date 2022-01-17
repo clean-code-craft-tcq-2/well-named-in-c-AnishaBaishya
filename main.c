@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "ColorPairToString.h"
+#include "WireColourCode.h"
 #include "test.h"
 
 int main() {
