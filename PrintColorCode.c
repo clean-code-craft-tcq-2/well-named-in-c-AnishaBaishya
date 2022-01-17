@@ -13,6 +13,6 @@ void ColorCodingManual()
 		ColorPair colorPair = GetColorFromPairNumber(pairnum);
 		char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
 		ColorPairToString(&colorPair, colorPairNames);
-		printf("%s PairNo: %d\n", colorPairNames, pairnum);
+		printf("PairNo:%d  %s\n",pairnum,colorPairNames);
 	}
 }
