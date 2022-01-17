@@ -5,7 +5,7 @@
 /* function to print color code */
 void ColorCodingManual()
 {
-	printf("Color Coding Manual");
+	printf("Color Coding Manual\n");
 	int pairnum;
   	int totalPairs = 25;
   	for (pairnum = 1; pairnum <= totalPairs; pairnum++)
