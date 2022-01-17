@@ -1,18 +1,6 @@
 #include <stdio.h>
-#include <assert.h>
-#include "main.h"
-
-const char* MajorColorNames[] = {
-    "White", "Red", "Black", "Yellow", "Violet"
-};
-int numberOfMajorColors =
-    sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
-const char* MinorColorNames[] = {
-    "Blue", "Orange", "Green", "Brown", "Slate"
-};
-
-int numberOfMinorColors =
-    sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+#include "ColorPairToString.h"
+#include "test.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
