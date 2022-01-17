@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "color_pairnum.h"
+#include "ColorPairToString.h"
 
 /* updated here due to build error */
 const char* MajorColorNames[] = {
