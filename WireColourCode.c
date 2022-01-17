@@ -17,7 +17,7 @@ int numberOfMinorColors =
 
 /* function to update color pair to string */
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
-    sprintf(buffer, "%s %s",
+    sprintf(buffer, "%s \t%s",
         MajorColorNames[colorPair->majorColor],
         MinorColorNames[colorPair->minorColor]);
 }
