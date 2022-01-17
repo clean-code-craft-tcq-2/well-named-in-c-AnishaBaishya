@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "ColorPairToString.h"
+#include "WireColourCode.h"
 
 /* updated here due to build error */
 const char* MajorColorNames[] = {
